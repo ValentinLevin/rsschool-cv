@@ -1,11 +1,124 @@
 <!DOCTYPE html>
 <html lang="ru">
-    <head>
-        <meta charset="UTF-8">
-        <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <title>CV</title>
-    </head>
-    <body>
-        <h1>CV</h1>
-    </body>
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link rel="icon" href="assets/img/favicon-16.png" type="image/png" sizes="16x16">
+    <link rel="icon" href="assets/img/favicon-32.png" type="image/png" sizes="32x32">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap"
+          rel="stylesheet">
+    <title>CV</title>
+</head>
+<body>
+<header>
+    <nav>
+        <ul>
+            <li><a href="#contacts">Contacts</a></li>
+            <li><a href="#about-me">About me</a></li>
+            <li><a href="#skills">Skills</a></li>
+            <li><a href="#code-example">Code example</a></li>
+            <li><a href="#education">Education</a></li>
+            <li><a href="#languages">Languages</a></li>
+        </ul>
+    </nav>
+</header>
+<main>
+    <section class="section profile" id="profile">
+        <img src="assets/img/avatar.jpg" alt="photo">
+        <h2>Valentin Levin</h2>
+    </section>
+    <section class="section contacts" id="contacts">
+        <h2 class="section-title">My contact info</h2>
+        <ul>
+            <li><img src="assets/img/house.png" alt="address" width="16"><b>Address:</b> Kazakhstan, Astana</li>
+            <li>
+                <img src="assets/img/telephone.png" alt="phone-number" width="16"><b>Phone number:</b> <a
+                    href="tel:+77051234567">+7&nbsp;(705)&nbsp;123-45-67</a>
+            </li>
+            <li><img src="assets/img/email.png" alt="email" width="16"><b>email:</b> <a
+                    href="mailto:valentinvlevin@gmail.com">valentinvlevin@gmail.com</a></li>
+            <li><img src="assets/img/discord.png" alt="discord" width="16"><b>Discord:</b>
+                valentin.levin(@ValentinLevin)
+            </li>
+            <li><img src="assets/img/github-16.png" alt="github" width="16"><b>GitHub:</b> <a
+                    href="https://github.com/ValentinLevin" target="_blank">ValentinLevin</a></li>
+        </ul>
+    </section>
+    <section class="section about-me" id="about-me">
+        <h2 class="section-title">About me</h2>
+        <p>I am 39 years old. I work as a backend developer in Astana, Kazakhstan.</p>
+        <p>I have extensive experience working with PostgreSQL and MSSQL databases, interacting with them using Java,
+            SQL, and Delphi languages, as well as Spring and JavaEE frameworks. Currently, I have a large number of
+            completed and maintained projects, both small and large, in the field of education.</p>
+        <p>Throughout my career, I strive to continually develop myself, keep up with new trends, and follow the
+            development of existing technologies. In my work, I find that my knowledge of implementing the frontend part
+            of a project is lacking for complete project coverage.</p>
+        <p>To address this, I have previously studied JavaScript and frameworks like Angular and Vue. I joined this
+            course to gain knowledge in web design.</p>
+    </section>
+    <section class="section skills" id="skills">
+        <h2 class="section-title">Skills & Competencies</h2>
+        <ul>
+            <li>Database Design & Administration</li>
+            <li>Server Setups & System Diagnostics</li>
+            <li>Programming Languages (e.g. Java, SQL, Delphi, basics of JavaScript)</li>
+            <li>Knowledge of Spring and Java EE frameworks</li>
+            <li>API/Web Services Development & Integrations</li>
+            <li>Database Performance Optimization & Monitoring (SQL Server, PostgreSQL, etc.)</li>
+            <li>Knowledge of web services and protocols (REST, SOAP, GraphQL, etc.)</li>
+            <li>Security & Authentication Protocols</li>
+            <li>Troubleshooting & Debugging</li>
+            <li>Knowledge of Git, GitHub, GitLab</li>
+        </ul>
+    </section>
+    <section class="section code-example" id="code-example">
+        <h2 class="section-title">Code example</h2>
+        <pre>
+    <span class="keyword">private final</span> Class&lt;T&gt; entityClass;
+    <span class="keyword">private final</span> Map&lt;Long, T&gt; values = <span class="keyword">new</span> LinkedHashMap&lt;&gt;();
+    <span class="keyword">private final</span> ReadWriteLock entityLock = <span class="keyword">new</span> ReentrantReadWriteLock();
+    <span class="keyword">private final</span> AtomicLong nextId = <span class="keyword">new</span> AtomicLong(1L);
+
+    <span class="keyword">protected</span> DataSourceImpl(String dataFileName, Class&lt;T&gt; entityClass) {
+        this.entityClass = entityClass;
+        List&lt;T&gt; items = readDataFromFile(dataFileName, entityClass);
+    }</pre>
+    </section>
+
+    <section class="section education" id="education">
+        <h2 class="section-title">Education</h2>
+        <ul>
+            <li>
+                Taraz State Univercity
+                <ul>
+                    <li>Bachelor's program</li>
+                    <li>2001-2006</li>
+                    <li>Computer information processing systems</li>
+                </ul>
+            </li>
+            <li>Oracle Database Administration course (10g)</li>
+            <li>Otus "Java developer" course</li>
+            <li>MJC School (Java course, in process)</li>
+            <li>HTML academy</li>
+        </ul>
+    </section>
+    <section class="section languages" id="languages">
+        <h2 class="section-title">Languages</h2>
+        <ul>
+            <li><b>Russian</b> - native</li>
+            <li><b>English</b> - A2</li>
+        </ul>
+    </section>
+</main>
+<footer>
+    <section class="footer-info">
+        <p class="copyright">&copy; 2024 Valentin Levin</p>
+        <a class="github" href="https://github.com/ValentinLevin" target="_blank"></a>
+        <a class="rs-school" href="https://rs.school/courses/javascript-ru" target="_blank"></a>
+    </section>
+</footer>
+</body>
 </html>

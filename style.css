@@ -1,0 +1,148 @@
+html {
+    scroll-behavior: smooth;
+}
+body {
+    display: flex;
+    flex-direction: column;
+    margin: 0;
+    padding: 0;
+    min-height: 100vh;
+
+    font-family: "Open Sans", sans-serif;
+    color: #636c76;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 1.5;
+}
+
+* {
+    box-sizing: border-box;
+}
+
+header nav {
+    max-width: 1080px;
+    margin: 0 auto;
+}
+
+header nav ul {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+}
+
+header nav li {
+    list-style: none;
+    margin-right: 5px;
+    display: inline-block;
+}
+
+header nav li:last-of-type {
+    margin-right: 0;
+}
+
+header nav a {
+    text-decoration: none;
+    background: gray;
+    padding: 5px 10px;
+    color: white;
+}
+
+header nav a:hover {
+    background: lightgray;
+    transition: 0.3s;
+}
+
+main {
+    max-width: 1080px;
+    margin: 0 auto;
+}
+
+main .section {
+    padding: 0 10px 0 20px;
+    border-left: 5px solid rgba(128, 128, 128, 0.20);
+}
+
+.section-title {
+    border-bottom: 2px solid rgba(128, 128, 128, 0.3);
+    padding: 5px 0;
+    text-transform: uppercase;
+}
+
+section.profile {
+    display: flex;
+    align-items: center;
+    border: none
+}
+
+section.profile img {
+    border-radius: 50%;
+}
+
+section.profile h2 {
+    margin-left: 60px;
+    font-size: 25pt;
+}
+
+section.contacts ul {
+    padding-left: 20px;
+}
+
+section.contacts li {
+    list-style: none;
+    line-height: 25px;
+}
+
+section.contacts li img {
+    margin: 0 10px 0 0;
+}
+
+section.contacts a {
+    text-decoration: none;
+
+}
+
+section.code-example pre {
+    background-color: #F6F8FAFF;
+    padding: 10px 20px;
+    border-radius: 5px;
+    font-family: monospace, serif;
+    font-size: 11pt;
+}
+
+section.code-example .keyword {
+    color: #D1248BFF;
+}
+
+footer {
+    background: rgba(211, 211, 211, 0.47);
+}
+
+.footer-info {
+    max-width: 1080px;
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    align-items: center;
+    margin: 0 auto;
+}
+
+.footer-info .copyright {
+    padding: 0 10px 0 0;
+}
+
+footer .github {
+    width: 60px;
+    height: 60px;
+    background-image: url("./assets/img/github-60.png");
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+
+footer .rs-school {
+    margin-left: auto;
+    width: 121px;
+    height: 45px;
+    background-image: url("./assets/img/rsschool-logo.png");
+    background-size: contain;
+    background-repeat: no-repeat;
+}
