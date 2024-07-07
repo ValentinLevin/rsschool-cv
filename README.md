@@ -1,3 +1,4 @@
 # rsschool-cv
 
-[My CV page (task CV#2. HTML, CSS & Git Basics)](https://ValentinLevin.github.io/rsschool-cv)
+[My CV page (markdown)](https://ValentinLevin.github.io/rsschool-cv/cv)
+[My CV page (html/css)](https://ValentinLevin.github.io/rsschool)

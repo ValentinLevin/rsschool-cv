@@ -1,11 +1,11 @@
-![avatar](./avatar.jpg)   
+![avatar](assets/img/avatar.jpg)   
 # Valentin Levin
 > ## My contact info
-> - ![house](house.png) **Address**:  Kazakhstan, Astana 
-> - ![phonenumber](telephone.png) **Phone number:**: +7(705)256-94-56
-> - ![email](email.png) **email:**: valentinvlevin@gmail.com
-> - ![discord](discord.png) **Discord:**: valentin.levin(@ValentinLevin)
-> - ![github](github.png) **GitHub:** [ValentinLevin](https://github.com/ValentinLevin)
+> - ![house](assets/img/house.png) **Address**:  Kazakhstan, Astana 
+> - ![phonenumber](assets/img/telephone.png) **Phone number:**: +7(705)256-94-56
+> - ![email](assets/img/email.png) **email:**: valentinvlevin@gmail.com
+> - ![discord](assets/img/discord.png) **Discord:**: valentin.levin(@ValentinLevin)
+> - ![github](assets/img/github-16.png) **GitHub:** [ValentinLevin](https://github.com/ValentinLevin)
 
 > ## About me
 > I am 39 years old. I work as a backend developer in Astana, Kazakhstan.  
